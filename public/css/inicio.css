@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/costos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: aquamarine;
+
+}
+
+/* Estilos para la navegación (nav) */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: aqua;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: blue;
+    transition: .4s;
+}
+
+/* Botón de navegación */
+.hola {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.hola:hover {
+    transform: scale(1.2);
+}
+
+
+/* Estilos para la información (contenido principal y "Acerca de") */
+.content {
+    padding-top: 50px;
+    position: absolute;
+    top: 60%;
+    left: 56%;
+    transform: translateY(-50%);
+}
+
+h2 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+/* Estilos para la sección "Acerca de" */
+.about {
+    width: 100%;
+    padding: 100px;
+    background-color: aquamarine;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h6 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.main {
+    width: -1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+
+.about-text h6 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+
+}
+
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: blue;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+
+
+/* Servicios */
+.service {
+    background: aqua;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.title h2 {
+    color: white;
+    font-size: 40px;
+    margin: 30px auto;
+}
+
+h6 {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* Tarjetas de servicios */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card svg {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: blue;
+}
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+/* Contacto */
+.ctm {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+}
+
+.contact-me {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.newslatter form {
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.newslatter form input:first-child {
+    width: 100%;
+    padding: 14px 15px;
+    border: 2px solid blue;
+    outline: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.newslatter form input:last-child {
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px;
+    top: 6px;
+    right: 8px;
+}
+
+/* Pie de página */
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    max-width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+/* Redes sociales */
+.social {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    border-radius: 50%;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+
+
+/* Estilos para pantallas más pequeñas (responsive) */
+@media (max-width: 868px) {
+    .hero {
+        height: 70vh;
+        /* Ajustar la altura para pantallas más pequeñas */
+    }
+
+    nav {
+        padding-left: 5%;
+        /* Reducir el espacio en el lado izquierdo */
+        padding-right: 5%;
+        /* Reducir el espacio en el lado derecho */
+    }
+
+    .logo {
+        font-size: 28px;
+        /* Reducir el tamaño de la fuente del logo */
+    }
+
+    nav ul {
+        display: none;
+        /* Ocultar la lista de navegación en pantallas más pequeñas */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 999;
+    }
+
+    nav ul.active {
+        display: flex;
+        /* Mostrar la lista de navegación cuando se activa el menú hamburguesa */
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+        /* Reducir el espacio entre elementos de la lista */
+        padding: 5px 0;
+        /* Reducir el espacio dentro de los elementos de la lista */
+        text-align: center;
+        /* Centrar el texto */
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        /* Reducir el tamaño de la fuente de los enlaces */
+        font-weight: normal;
+        /* Usar un peso de fuente normal */
+    }
+}
+
